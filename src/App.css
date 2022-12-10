@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.parentDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fafafa;;
+}
+
+.head{
+  background-color: #00d084;;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  font-size: 25px;
+  gap: 25px;
+  color: #0b291e;
+  font-weight: 600;
+ 
+}
+.head p{
+  cursor: pointer;
+}
+.head p:hover{
+  color: #fafeff;
+}
+
+
+img{
+  width: 400px;
+  height: 218px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+.maindiv{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+
+}
+.box{
+  display: flex;
+  gap: 15px;
+}
+
+.NewsHeading{
+  padding: 10px;
+  /* background-color: #f6f891; */
+  background-color: #ccdbe1;
+  font-size: 18px;
+  font-family: system-ui;
+  height: 121px;
+}
+
+.dataNews{
+  display: flex;
+  gap: 10px;
+}
+
+.Description{
+    background-color: #a0bea1;
+    text-align: start;
+    padding: 10px;
+    color: rgb(46, 37, 37);
+    font-family: system-ui;
+    font-weight: 600;
+}
+.Content{
+  padding: 10px;
+}
+.data{
+  width: 150%;
+}
